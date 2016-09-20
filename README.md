@@ -19,7 +19,7 @@ The questions that this project will raise are:
 
 ### Required
 
-- [ ] Practice git flow
+- [X] Practice git flow
 - [ ] Setup NPM
 - [ ] Setup testing using Jasmine
 - [ ] Includes a list of commonly used methods to rewrite in ES2015.
