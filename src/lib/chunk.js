@@ -1,0 +1,29 @@
+
+const chunk = (arr, size = 1) => {
+  let outputArr = []
+  let counter = 0
+  let sizeCount = arr.length
+  let tempArr = []
+
+  for (var i = 0; i < arr.length; i++) {
+    // console.log(sizeCount)
+    tempArr.push(arr[i])
+    counter ++
+    sizeCount --
+
+    if (counter == size) {
+      outputArr.push(tempArr)
+      counter = 0
+      tempArr = []
+    }
+
+    if (sizeCount < size -1) {
+      outputArr.push(tempArr)
+    }
+  }
+  return outputArr
+
+}
+
+
+export default chunk
