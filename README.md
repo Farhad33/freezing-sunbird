@@ -20,7 +20,7 @@ The questions that this project will raise are:
 ### Required
 
 - [X] Practice git flow
-- [X] Setup NPM
+- [X] Setup NPM 
 - [X] Setup testing using Mocha
 - [ ] 5 mild Lodash functions rewritten in ES2015
 - [ ] 5 medium Lodash functions rewritten in ES2015
