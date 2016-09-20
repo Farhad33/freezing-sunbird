@@ -21,6 +21,7 @@ The questions that this project will raise are:
 
 - [ ] Practice git flow
 - [ ] Setup NPM
+- [ ] Setup testing using Jasmine
 - [ ] Includes a list of commonly used methods to rewrite in ES2015.
 - [ ] Includes a README that describes each method and provides an example of use.
 - [ ] Package is published with NPM.
