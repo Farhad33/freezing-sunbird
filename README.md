@@ -5,7 +5,7 @@ Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods wi
 ## Context
 
 This goal is important for:
-- learning JavaScript 
+- learning JavaScript
 - understanding how developer write higher-level code for others to use
 - understanding ES2015
 
@@ -19,8 +19,10 @@ The questions that this project will raise are:
 
 ### Required
 
+- [ ] Practice git flow
+- [ ] Setup NPM
 - [ ] Includes a list of commonly used methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use. 
+- [ ] Includes a README that describes each method and provides an example of use.
 - [ ] Package is published with NPM.
 - [ ] Includes tests for all methods described.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
