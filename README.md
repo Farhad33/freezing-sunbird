@@ -20,19 +20,13 @@ The questions that this project will raise are:
 ### Required
 
 - [X] Practice git flow
-- [ ] Setup NPM
-- [ ] Setup testing using Jasmine
-- [ ] Includes a list of commonly used methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use.
-- [ ] Package is published with NPM.
+- [X] Setup NPM 
+- [X] Setup testing using Mocha
+- [ ] 5 mild Lodash functions rewritten in ES2015
+- [ ] 5 medium Lodash functions rewritten in ES2015
+- [ ] 5 spicy Lodash functions rewritten in ES2015
 - [ ] Includes tests for all methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-### Optional
-
-- [ ] Showcases methods in a simple website app.
-
----
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 <!-- LICENSE -->
 
