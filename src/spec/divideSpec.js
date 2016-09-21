@@ -6,7 +6,7 @@ describe('divide', () => {
     expect( divide(4,2)).to.eql(2)
   })
   it ('It should return a decimal quotient when necessary', () => {
-    expect( divide(5,2)).to.eql(2.5)
+    expect( divide("5",2)).to.eql(2.5)
   })
   it ('It should return 1 if there is no input', () => {
     expect( divide()).to.eql(1)
@@ -15,7 +15,7 @@ describe('divide', () => {
     expect( divide(6)).to.eql(6)
   })
   it ('If a string is given, it should return the string', () => {
-    expect( divide('muffins')).to.eql('muffins')
+    expect( divide('muffins',2)).to.eql('NaN')
   })
 
 
