@@ -15,7 +15,7 @@ describe('divide', () => {
     expect( divide(6)).to.eql(6)
   })
   it ('If a string is given, it should return the string', () => {
-    expect( divide('muffins').to.eql('muffins')
+    expect( divide('muffins')).to.eql('muffins')
   })
 
 

@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/Farhad33/freezing-sunbird#readme",
   "dependencies": {
-    "lodash": "^4.15.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
