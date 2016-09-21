@@ -18,7 +18,9 @@ describe('compact', () => {
   it ('If input is undefined, return an empty array', () => {
     expect( compact(undefined)).to.eql([])
   })
+
   it ('If input is null, return an empty array', () => {
-    expect( compact(null).to.eql([])
+    expect( compact(null)).to.eql([])
   })
+
 })
