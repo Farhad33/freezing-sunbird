@@ -2,7 +2,7 @@
 import flow from '../lib/flow'
 import expect from 'expect.js'
 
-describe.only('Flow', () => {
+describe('Flow', () => {
   it ('It should pass the return value of the first function into the second', () => {
     const add = (val1, val2) => {
       return val1 + val2
