@@ -22,11 +22,39 @@ The questions that this project will raise are:
 - [X] Practice git flow
 - [X] Setup NPM 
 - [X] Setup testing using Mocha
-- [ ] 5 mild Lodash functions rewritten in ES2015
-- [ ] 5 medium Lodash functions rewritten in ES2015
-- [ ] 5 spicy Lodash functions rewritten in ES2015
-- [ ] Includes tests for all methods described.
+- [X] 5 mild Lodash functions rewritten in ES2015
+- [X] 5 medium Lodash functions rewritten in ES2015
+- [X] 5 spicy Lodash functions rewritten in ES2015
+- [X] Includes tests for all methods described.
 - [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### List of the functions
+
+- [x] [firstLetterCapital](./src/spec/firstLetterCapitalSpec.js)
+####Mild functions
+- [X] [Head](./src/spec/Head.js)  [HeadSpec](./src/spec/HeadSpec.js)
+- [X] [Divide](./src/spec/Divide.js)  [DivideSpec](./src/spec/DivideSpec.js)
+- [X] [Add](./src/spec/Add.js)  [AddSpec](./src/spec/AddSpec.js)
+- [X] [Sum](./src/spec/Sum.js)  [SumSpec](./src/spec/SumSpec.js)
+- [X] [Last](./src/spec/Last.js)  [LastSpec](./src/spec/LastSpec.js)
+####Medium functions
+- [X] [Drop](./src/spec/Drop.js)  [DropSpec](./src/spec/DropSpec.js)
+- [X] [Tail](./src/spec/Tail.js)  [TailSpec](./src/spec/TailSpec.js)
+- [X] [Max](./src/spec/Max.js)  [MaxSpec](./src/spec/MaxSpec.js)
+- [X] [Uniq](./src/spec/Uniq.js)  [UniqSpec](./src/spec/UniqSpec.js)
+- [X] [Compact](./src/spec/Compact.js)  [CompactSpec](./src/spec/CompactSpec.js)
+- [X] [Flatten](./src/spec/Flatten.js)  [FlattenSpec](./src/spec/FlattenSpec.js)
+####Spicy functions
+- [X] [chunk](./src/spec/chunk.js)  [chunkSpec](./src/spec/chunkSpec.js)
+- [X] [toUpper](./src/spec/toUpper.js)  [toUpperSpec](./src/spec/toUpperSpec.js)
+- [X] [toLower](./src/spec/toLower.js)  [toLowerSpec](./src/spec/toLowerSpec.js)
+- [X] [Map](./src/spec/Map.js)  [MapSpec](./src/spec/MapSpec.js)
+- [X] [FlattenDeep](./src/spec/FlattenDeep.js)  [FlattenDeepSpec](./src/spec/FlattenDeepSpec.js)
+- [X] [Difference](./src/spec/Difference.js)  [DifferenceSpec](./src/spec/DifferenceSpec.js)
+- [X] [Filter](./src/spec/Filter.js)  [FilterSpec](./src/spec/FilterSpec.js)
+####Habanero functions
+- [X] [Flow](./src/spec/Flow.js)  [FlowSpec](./src/spec/FlowSpec.js)
+
 
 <!-- LICENSE -->
 
