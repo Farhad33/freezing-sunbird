@@ -60,7 +60,7 @@ The questions that this project will raise are:
 
 ####Habanero functions
 
-- [X] [Flow](./src/spec/flow.js) || [FlowSpec](./src/spec/flowSpec.js)
+- [X] [Flow](./src/lib/flow.js) || [FlowSpec](./src/spec/flowSpec.js)
 
 
 <!-- LICENSE -->
