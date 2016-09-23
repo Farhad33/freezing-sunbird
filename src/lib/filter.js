@@ -5,7 +5,7 @@ const filter = (coll, func) => {
     if (func(val)) {
       result.push(val)
     }
-    if (val.constructor !== Object){
+    if (val.constructor !== Object) {
       result.push(val)
     }
   }

@@ -2,15 +2,13 @@ import map from '../lib/map'
 import expect from 'expect.js'
 
 describe('map', () => {
-  it ('It should return a new array with the given function performed on every value in the input array', () => {
+  const addOne = num => { return ++num }
 
-    const addOne = num => { return ++num }
+  it ('It should return a new array with the given function performed on every value in the input array', () => {
     expect( map([2,4,6], addOne)).to.eql([3,5,7])
   })
 
   it ('It should return a new array with the given function performed of the value of a dictionary pair', () => {
-
-    const addOne = num => { return ++num }
     expect( map({ 'a' : 2, 'b' : 4, 'c' : 6}, addOne)).to.eql([3,5,7])
   })
 

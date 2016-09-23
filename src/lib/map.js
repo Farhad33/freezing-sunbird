@@ -3,8 +3,7 @@ const map = (container, func) => {
   let newArr = []
 
   for (var key in container) {
-    var value = container[key]
-    ourPush(newArr, func(value))
+    ourPush(newArr, func(container[key]))
   }
 
   return newArr

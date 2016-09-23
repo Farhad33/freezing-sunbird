@@ -12,11 +12,8 @@ const chunk = (arr, size = 1) => {
     }
 
     if ((arr[i+1] == undefined)) {
-      if (child[0] == undefined) {
-        break
-      }
+      if (child[0] == undefined) {break}
       parent.push(child)
-      break
     }
     counter++
   }

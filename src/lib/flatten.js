@@ -1,13 +1,13 @@
 const flatten = (arr) => {
   let newArr = []
-  for (var index in arr){
-    if (arr[index].constructor === Array){
-      let subArr = arr[index]
-      for (var jndex in subArr){
-        newArr.push(subArr[jndex])
+  for (var i in arr){
+    if (arr[i].constructor === Array){
+      let subArr = arr[i]
+      for (var j in subArr){
+        newArr.push(subArr[j])
       }
     } else {
-      newArr.push(arr[index])
+      newArr.push(arr[i])
     }
   }
 

@@ -10,9 +10,8 @@ const difference = (...arg) => {
 
 const arrComp = (arr1, arr2) => {
   let result = []
-  let counter = 0
   for (let first of arr1) {
-    counter = 0
+    let counter = 0
     for (let second of arr2) {
       if (first != second) {
         counter++

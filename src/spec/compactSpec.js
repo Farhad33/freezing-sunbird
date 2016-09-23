@@ -23,4 +23,4 @@ describe('compact', () => {
     expect( compact(null)).to.eql([])
   })
 
-})
+ })

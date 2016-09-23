@@ -11,7 +11,7 @@ describe('filter', () => {
       {"name":"Sylvan","quality":"fantastic"},
       {"name":"Max","quality":"amazing"},
       {"name":"Isis","quality":"fantastic"}
-    ], amazingFind)).to.eql([{"name":"Max","quality":"amazing"}])
+    ], amazingFind).to.eql([{"name":"Max","quality":"amazing"}])
   })
 
   it ('Returns an array of dictionaries that match the conditions in the given function', () => {
