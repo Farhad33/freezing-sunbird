@@ -33,34 +33,34 @@ The questions that this project will raise are:
 
 ####Mild functions
 
-- [X] [Head](./src/spec/Head.js) || [HeadSpec](./src/spec/HeadSpec.js)
-- [X] [Divide](./src/spec/Divide.js) || [DivideSpec](./src/spec/DivideSpec.js)
-- [X] [Add](./src/spec/Add.js) || [AddSpec](./src/spec/AddSpec.js)
-- [X] [Sum](./src/spec/Sum.js) || [SumSpec](./src/spec/SumSpec.js)
-- [X] [Last](./src/spec/Last.js) || [LastSpec](./src/spec/LastSpec.js)
+- [X] [Head](./src/lib/head.js) || [HeadSpec](./src/spec/headSpec.js)
+- [X] [Divide](./src/lib/divide.js) || [DivideSpec](./src/spec/divideSpec.js)
+- [X] [Add](./src/lib/add.js) || [AddSpec](./src/spec/addSpec.js)
+- [X] [Sum](./src/lib/sum.js) || [SumSpec](./src/spec/sumSpec.js)
+- [X] [Last](./src/lib/last.js) || [LastSpec](./src/spec/lastSpec.js)
 
 ####Medium functions
 
-- [X] [Drop](./src/spec/Drop.js) || [DropSpec](./src/spec/DropSpec.js)
-- [X] [Tail](./src/spec/Tail.js) || [TailSpec](./src/spec/TailSpec.js)
-- [X] [Max](./src/spec/Max.js) || [MaxSpec](./src/spec/MaxSpec.js)
-- [X] [Uniq](./src/spec/Uniq.js) || [UniqSpec](./src/spec/UniqSpec.js)
-- [X] [Compact](./src/spec/Compact.js) || [CompactSpec](./src/spec/CompactSpec.js)
-- [X] [Flatten](./src/spec/Flatten.js) || [FlattenSpec](./src/spec/FlattenSpec.js)
+- [X] [Drop](./src/lib/drop.js) || [DropSpec](./src/spec/dropSpec.js)
+- [X] [Tail](./src/lib/tail.js) || [TailSpec](./src/spec/tailSpec.js)
+- [X] [Max](./src/lib/max.js) || [MaxSpec](./src/spec/maxSpec.js)
+- [X] [Uniq](./src/lib/uniq.js) || [UniqSpec](./src/spec/uniqSpec.js)
+- [X] [Compact](./src/lib/compact.js) || [CompactSpec](./src/spec/compactSpec.js)
+- [X] [Flatten](./src/lib/flatten.js) || [FlattenSpec](./src/spec/flattenSpec.js)
 
 ####Spicy functions
 
-- [X] [chunk](./src/spec/chunk.js) || [chunkSpec](./src/spec/chunkSpec.js)
-- [X] [toUpper](./src/spec/toUpper.js) || [toUpperSpec](./src/spec/toUpperSpec.js)
-- [X] [toLower](./src/spec/toLower.js) || [toLowerSpec](./src/spec/toLowerSpec.js)
-- [X] [Map](./src/spec/Map.js) || [MapSpec](./src/spec/MapSpec.js)
-- [X] [FlattenDeep](./src/spec/FlattenDeep.js) || [FlattenDeepSpec](./src/spec/FlattenDeepSpec.js)
-- [X] [Difference](./src/spec/Difference.js) || [DifferenceSpec](./src/spec/DifferenceSpec.js)
-- [X] [Filter](./src/spec/Filter.js) || [FilterSpec](./src/spec/FilterSpec.js)
+- [X] [chunk](./src/lib/chunk.js) || [chunkSpec](./src/spec/chunkSpec.js)
+- [X] [toUpper](./src/lib/toUpper.js) || [toUpperSpec](./src/spec/toUpperSpec.js)
+- [X] [toLower](./src/lib/toLower.js) || [toLowerSpec](./src/spec/toLowerSpec.js)
+- [X] [Map](./src/lib/map.js) || [MapSpec](./src/spec/mapSpec.js)
+- [X] [FlattenDeep](./src/lib/flattenDeep.js) || [FlattenDeepSpec](./src/spec/flattenDeepSpec.js)
+- [X] [Difference](./src/lib/difference.js) || [DifferenceSpec](./src/spec/differenceSpec.js)
+- [X] [Filter](./src/lib/filter.js) || [FilterSpec](./src/spec/filterSpec.js)
 
 ####Habanero functions
 
-- [X] [Flow](./src/spec/Flow.js) || [FlowSpec](./src/spec/FlowSpec.js)
+- [X] [Flow](./src/spec/flow.js) || [FlowSpec](./src/spec/flowSpec.js)
 
 
 <!-- LICENSE -->
